@@ -1,0 +1,33 @@
+# Xcode
+*.xcuserdatad
+*.xcworkspace
+*.xcuserdata
+*.xcodeproj/project.xcworkspace/xcuserdata
+*.xcodeproj/xcuserdata
+*.xcodeproj/xcuserdata/*.xcuserdatad
+*.xcodeproj/xcuserdata/*.xcuserdatad/*.xcuserdatad
+
+# Build products
+build/
+DerivedData/
+
+# iOS specific
+*.app
+*.ipa
+*.dSYM
+
+# Cocoapods
+Pods/
+Podfile.lock
+
+# Swift Package Manager
+Package.resolved
+/.build/
+
+# Others
+*.swp
+*.swo
+*.DS_Store
+
+
+
