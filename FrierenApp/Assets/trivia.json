@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 1,
+    "question": "¿Qué evento importante ocurre al inicio del primer tomo que marca el final de la aventura del héroe?",
+    "answer": "La derrota del Rey Demonio",
+    "wrong": [
+      "La formación del grupo de héroes",
+      "La llegada de un nuevo enemigo",
+      "La muerte de un compañero"
+    ],
+    "manga": 1,
+    "hint": "Es el objetivo principal del viaje de los héroes."
+  },
+  {
+    "id": 2,
+    "question": "¿Cuál es el objetivo principal de Frieren en su viaje después de la derrota del Rey Demonio?",
+    "answer": "Revisitar los recuerdos de sus compañeros",
+    "wrong": [
+      "Buscar nuevos aliados",
+      "Entrenar en magia avanzada",
+      "Derrotar a nuevos enemigos"
+    ],
+    "manga": 1,
+    "hint": "Su viaje es introspectivo y emocional."
+  },
+  {
+    "id": 3,
+    "question": "¿Quién fue el responsable de la creación del grupo original de héroes?",
+    "answer": "Himmel",
+    "wrong": [
+      "Heiter",
+      "Frieren",
+      "Eisen"
+    ],
+    "manga": 1,
+    "hint": "Era el líder del grupo."
+  },
+  {
+    "id": 4,
+    "question": "¿Qué tipo de relación tenía Frieren con Himmel?",
+    "answer": "Respetuosa pero emocionalmente distante",
+    "wrong": [
+      "Romántica",
+      "Hostil",
+      "Fraternal"
+    ],
+    "manga": 1,
+    "hint": "La longevidad de Frieren afectaba la cercanía."
+  },
+  {
+    "id": 5,
+    "question": "¿Qué habilidad mágica destaca más en Frieren?",
+    "answer": "Su dominio de la magia elemental",
+    "wrong": [
+      "Invocación de seres mágicos",
+      "Manipulación del tiempo",
+      "Magia de curación avanzada"
+    ],
+    "manga": 1,
+    "hint": "Su magia se centra en la naturaleza."
+  },
+  {
+    "id": 6,
+    "question": "¿Qué característica física notable tiene Frieren como elfa?",
+    "answer": "Sus orejas largas y puntiagudas",
+    "wrong": [
+      "Su piel pálida",
+      "Sus ojos dorados",
+      "Su altura"
+    ],
+    "manga": 1,
+    "hint": "Es un rasgo típico de los elfos."
+  },
+  {
+    "id": 7,
+    "question": "¿Cómo suele reaccionar Frieren ante las situaciones peligrosas?",
+    "answer": "Con calma y racionalidad",
+    "wrong": [
+      "Con miedo",
+      "Con impulsividad",
+      "Con ira"
+    ],
+    "manga": 1,
+    "hint": "Su longevidad le ha enseñado a no apresurarse."
+  },
+  {
+    "id": 8,
+    "question": "¿Qué representa el arco de Himmel en la vida de Frieren?",
+    "answer": "La importancia de los recuerdos y la nostalgia",
+    "wrong": [
+      "El deseo de poder",
+      "El miedo a la muerte",
+      "El arrepentimiento por sus acciones pasadas"
+    ],
+    "manga": 1,
+    "hint": "Tiene que ver con su forma de recordar."
+  },
+  {
+    "id": 9,
+    "question": "¿Cuál es la diferencia entre la forma en que Frieren ve el mundo y cómo lo ven los humanos?",
+    "answer": "Frieren lo ve de manera más distante debido a su longevidad",
+    "wrong": [
+      "Los humanos lo ven como un lugar mágico",
+      "Frieren lo ve con más pasión",
+      "Los humanos no perciben la magia"
+    ],
+    "manga": 1,
+    "hint": "Su vida larga afecta su perspectiva."
+  },
+  {
+    "id": 10,
+    "question": "¿Cómo lidia Frieren con la pérdida de sus compañeros humanos?",
+    "answer": "Con una mezcla de nostalgia y desconcierto",
+    "wrong": [
+      "Con furia y deseos de venganza",
+      "Con indiferencia total",
+      "Con miedo a morir"
+    ],
+    "manga": 1,
+    "hint": "Es un proceso emocional complicado debido a su longevidad."
+  },
+  {
+    "id": 11,
+    "question": "¿Cuál es el objetivo del viaje de Frieren después de la muerte de Himmel?",
+    "answer": "Reencontrarse con los lugares y recuerdos de sus antiguos compañeros",
+    "wrong": [
+      "Buscar un objeto perdido",
+      "Vengar la muerte de Himmel",
+      "Destruir a un nuevo enemigo"
+    ],
+    "manga": 1,
+    "hint": "El viaje tiene un enfoque más introspectivo."
+  },
+  {
+    "id": 12,
+    "question": "¿Qué representa la longevidad de Frieren en el contexto de la historia?",
+    "answer": "La dificultad de conectar con seres de vida corta",
+    "wrong": [
+      "El poder absoluto sobre la magia",
+      "El dominio del conocimiento ancestral",
+      "La clave para la inmortalidad"
+    ],
+    "manga": 1,
+    "hint": "Su vida larga es más una carga emocional que una ventaja."
+  },
+  {
+    "id": 13,
+    "question": "¿Cuál fue el último deseo de Himmel para Frieren?",
+    "answer": "Que tratara de entender mejor las emociones humanas",
+    "wrong": [
+      "Que volviera a viajar con un nuevo grupo de héroes",
+      "Que destruyera el mal en el mundo",
+      "Que encontrara el sentido de su vida"
+    ],
+    "manga": 1,
+    "hint": "Está relacionado con el viaje emocional de Frieren."
+  },
+  {
+    "id": 14,
+    "question": "¿Qué tipo de magia le enseña Frieren a Fern?",
+    "answer": "Magia de ataque y defensa",
+    "wrong": [
+      "Magia curativa",
+      "Magia de invocación",
+      "Magia de teletransportación"
+    ],
+    "manga": 2,
+    "hint": "Es útil en combate."
+  },
+  {
+    "id": 15,
+    "question": "¿Qué aprendió Frieren de sus años viajando con los héroes?",
+    "answer": "El valor de los momentos cotidianos con sus compañeros",
+    "wrong": [
+      "Cómo derrotar a enemigos más poderosos",
+      "Que la amistad es efímera",
+      "El secreto de la inmortalidad"
+    ],
+    "manga": 2,
+    "hint": "Tiene que ver con lo emocional y no lo físico."
+  },
+  {
+    "id": 16,
+    "question": "¿Cómo se siente Frieren respecto a la mortalidad humana?",
+    "answer": "La encuentra difícil de comprender, pero fascinante",
+    "wrong": [
+      "La teme profundamente",
+      "La desprecia por ser una elfa",
+      "Le es completamente indiferente"
+    ],
+    "manga": 2,
+    "hint": "Es una cuestión que le resulta confusa debido a su longevidad."
+  },
+  {
+    "id": 17,
+    "question": "¿Qué relación tiene Eisen con Frieren?",
+    "answer": "Compañeros de viaje y respeto mutuo",
+    "wrong": [
+      "Rivales",
+      "Mentor y aprendiz",
+      "Enemigos convertidos en aliados"
+    ],
+    "manga": 2,
+    "hint": "Eisen es parte del grupo de héroes originales."
+  },
+  {
+    "id": 18,
+    "question": "¿Qué lección principal se extrae del viaje de Frieren?",
+    "answer": "La importancia de entender y valorar a los demás, incluso si sus vidas son cortas",
+    "wrong": [
+      "La búsqueda de poder y conocimiento",
+      "La necesidad de vengar a los seres queridos",
+      "La inevitabilidad del destino"
+    ],
+    "manga": 2,
+    "hint": "Es una lección emocional, no de batalla."
+  },
+  {
+    "id": 19,
+    "question": "¿Qué hace que Frieren destaque como maga, además de su poder?",
+    "answer": "Su experiencia acumulada a lo largo de los años",
+    "wrong": [
+      "Su creatividad con los hechizos",
+      "Su habilidad para usar artefactos mágicos",
+      "Su capacidad para aprender nuevos conjuros rápidamente"
+    ],
+    "manga": 2,
+    "hint": "Ha vivido por mucho tiempo, lo que le ha dado una gran cantidad de conocimiento."
+  },
+  {
+    "id": 20,
+    "question": "¿Qué representa el viaje de Frieren después de la muerte de sus compañeros?",
+    "answer": "Un viaje de autodescubrimiento y aceptación",
+    "wrong": [
+      "Un viaje para destruir el mal",
+      "Un viaje para encontrar nuevos aliados",
+      "Un viaje para buscar la inmortalidad"
+    ],
+    "manga": 2,
+    "hint": "Es un proceso personal y emocional."
+  },
+  {
+    "id": 21,
+    "question": "¿Cuál es la relación entre Frieren y el tiempo?",
+    "answer": "Lo ve de manera diferente a los humanos debido a su longevidad",
+    "wrong": [
+      "No le importa el tiempo",
+      "Desea vivir más rápido",
+      "Está obsesionada con el tiempo"
+    ],
+    "manga": 2,
+    "hint": "Su perspectiva sobre el tiempo es única."
+  },
+  {
+    "id": 22,
+    "question": "¿Qué aspecto del carácter de Frieren se desarrolla a lo largo de la serie?",
+    "answer": "Su capacidad para conectar emocionalmente con otros",
+    "wrong": [
+      "Su deseo de ser la más poderosa",
+      "Su ambición por ser reconocida",
+      "Su miedo a perder a sus compañeros"
+    ],
+    "manga": 2,
+    "hint": "La serie trata sobre su crecimiento personal."
+  },
+  {
+    "id": 23,
+    "question": "¿Qué evento lleva a Frieren a reflexionar sobre su pasado con sus compañeros?",
+    "answer": "El encuentro con nuevos aventureros",
+    "wrong": [
+      "La llegada de un nuevo enemigo",
+      "La muerte de un monstruo",
+      "Un ataque a su aldea"
+    ],
+    "manga": 2,
+    "hint": "Los nuevos aventureros le hacen pensar en lo que ha perdido."
+  },
+  {
+    "id": 24,
+    "question": "¿Cómo afecta la muerte de Himmel a Frieren?",
+    "answer": "La motiva a reevaluar sus prioridades y recuerdos",
+    "wrong": [
+      "La hace más poderosa",
+      "La llena de rencor",
+      "La lleva a retirarse"
+    ],
+    "manga": 2,
+    "hint": "Es un cambio emocional profundo."
+  },
+  {
+    "id": 25,
+    "question": "¿Qué aprendizaje busca Frieren durante su viaje?",
+    "answer": "Comprender el significado de la amistad y el tiempo",
+    "wrong": [
+      "Aprender nuevas habilidades mágicas",
+      "Buscar tesoros ocultos",
+      "Conquistar nuevos territorios"
+    ],
+    "manga": 2,
+    "hint": "Su búsqueda es más emocional que física."
+  },
+  {
+    "id": 26,
+    "question": "¿Quién es el primer compañero que se une a Frieren en su nuevo viaje?",
+    "answer": "Fern",
+    "wrong": [
+      "Eisen",
+      "Himmel",
+      "Heiter"
+    ],
+    "manga": 3,
+    "hint": "Es una joven aprendiz."
+  },
+  {
+    "id": 27,
+    "question": "¿Cómo se siente Fern hacia Frieren al principio?",
+    "answer": "Admiración y algo de temor",
+    "wrong": [
+      "Desconfianza total",
+      "Indiferencia",
+      "Rencor"
+    ],
+    "manga": 3,
+    "hint": "Es un sentimiento común entre aprendices y maestros."
+  },
+  {
+    "id": 28,
+    "question": "¿Cuál es el primer desafío que enfrentan Frieren y Fern juntas?",
+    "answer": "Un ataque de monstruos en el camino",
+    "wrong": [
+      "Un duelo mágico",
+      "Un concurso de habilidades",
+      "Una emboscada de bandidos"
+    ],
+    "manga": 3,
+    "hint": "Es un evento que pone a prueba su trabajo en equipo."
+  },
+  {
+    "id": 29,
+    "question": "¿Qué relación tiene Frieren con el tiempo durante sus encuentros con nuevos aventureros?",
+    "answer": "Reflexiona sobre la fugacidad de la vida",
+    "wrong": [
+      "Desearía que el tiempo pasara más rápido",
+      "No le importa el tiempo",
+      "Siente que el tiempo se detiene"
+    ],
+    "manga": 3,
+    "hint": "Su longevidad le da una perspectiva única."
+  },
+  {
+    "id": 30,
+    "question": "¿Cómo se desarrolla la relación entre Frieren y Fern a lo largo de su viaje?",
+    "answer": "Se vuelven más cercanas y comprensivas entre sí",
+    "wrong": [
+      "Se distancian emocionalmente",
+      "Compiten constantemente",
+      "Se convierten en enemigas"
+    ],
+    "manga": 3,
+    "hint": "Su viaje les permite aprender la una de la otra."
+  },
+  {
+    "id": 31,
+    "question": "¿Qué tipo de lecciones de vida comparte Frieren con Fern?",
+    "answer": "La importancia de apreciar cada momento",
+    "wrong": [
+      "La necesidad de ser poderosa",
+      "La importancia de dominar la magia",
+      "La búsqueda de venganza"
+    ],
+    "manga": 3,
+    "hint": "Se centra en lo emocional más que en lo físico."
+  },
+  {
+    "id": 32,
+    "question": "¿Qué papel juega la nostalgia en la historia de Frieren?",
+    "answer": "Impulsa su viaje y sus decisiones",
+    "wrong": [
+      "No tiene impacto en la historia",
+      "Es solo un recuerdo sin importancia",
+      "Es un factor de distracción"
+    ],
+    "manga": 3,
+    "hint": "Sus recuerdos son parte integral de su crecimiento."
+  },
+  {
+    "id": 33,
+    "question": "¿Qué valor tiene la amistad para Frieren a medida que avanza la historia?",
+    "answer": "Es fundamental para su crecimiento personal",
+    "wrong": [
+      "Es irrelevante",
+      "Solo es útil en la batalla",
+      "Es un obstáculo"
+    ],
+    "manga": 3,
+    "hint": "La amistad le ayuda a conectar con los demás."
+  },
+  {
+    "id": 34,
+    "question": "¿Qué tema recurrente se presenta en los pensamientos de Frieren?",
+    "answer": "La brevedad de la vida humana",
+    "wrong": [
+      "El poder absoluto",
+      "La soledad de ser elfa",
+      "La ambición por ser la más fuerte"
+    ],
+    "manga": 3,
+    "hint": "Es una reflexión sobre su longevidad."
+  },
+  {
+    "id": 35,
+    "question": "¿Qué emoción siente Frieren cuando recuerda a sus antiguos compañeros?",
+    "answer": "Una mezcla de tristeza y gratitud",
+    "wrong": [
+      "Rencor y odio",
+      "Indiferencia",
+      "Felicidad plena"
+    ],
+    "manga": 3,
+    "hint": "Recuerda lo que significaron para ella."
+  },
+  {
+    "id": 36,
+    "question": "¿Qué relación tiene Frieren con el crecimiento personal?",
+    "answer": "Es un viaje constante que influye en su magia",
+    "wrong": [
+      "No tiene interés en mejorar",
+      "Solo se preocupa por el poder",
+      "Su crecimiento es irrelevante para la historia"
+    ],
+    "manga": 3,
+    "hint": "Su desarrollo personal es clave para su historia."
+  },
+  {
+    "id": 37,
+    "question": "¿Cómo aborda Frieren el tema de la muerte de sus compañeros?",
+    "answer": "Con aceptación y reflexión",
+    "wrong": [
+      "Con ira y venganza",
+      "Con desesperación",
+      "Con indiferencia total"
+    ],
+    "manga": 3,
+    "hint": "Su perspectiva se basa en su experiencia."
+  },
+  {
+    "id": 38,
+    "question": "¿Qué importancia tiene el viaje para Frieren a lo largo de la serie?",
+    "answer": "Es esencial para su desarrollo emocional",
+    "wrong": [
+      "Es solo una forma de ganar poder",
+      "Es un viaje sin propósito",
+      "Es una búsqueda de enemigos"
+    ],
+    "manga": 3,
+    "hint": "El viaje refleja su crecimiento interior."
+  },
+  {
+    "id": 39,
+    "question": "¿Cómo se siente Frieren respecto a su pasado como heroína?",
+    "answer": "Con una mezcla de orgullo y melancolía",
+    "wrong": [
+      "Con desprecio",
+      "Con total indiferencia",
+      "Con una búsqueda de gloria"
+    ],
+    "manga": 3,
+    "hint": "Sus logros son parte de su identidad."
+  },
+  {
+    "id": 40,
+    "question": "¿Qué enseñanza clave deja Frieren a Fern al final de su viaje?",
+    "answer": "La importancia de los lazos y recuerdos",
+    "wrong": [
+      "La búsqueda de la fuerza",
+      "La venganza contra enemigos",
+      "La ambición de poder"
+    ],
+    "manga": 3,
+    "hint": "Es una lección que trasciende la batalla."
+  },
+  {
+    "id": 41,
+    "question": "¿Qué simboliza el viaje de Frieren a lo largo de la serie?",
+    "answer": "Un camino hacia la comprensión y aceptación de sí misma",
+    "wrong": [
+      "Una búsqueda de poder",
+      "Una lucha sin sentido",
+      "Una carrera hacia la fama"
+    ],
+    "manga": 3,
+    "hint": "Es un viaje de autodescubrimiento."
+  },
+  {
+    "id": 42,
+    "question": "¿Cómo afecta la vida de Frieren a sus decisiones en el presente?",
+    "answer": "Su pasado la guía en sus elecciones actuales",
+    "wrong": [
+      "No tiene influencia",
+      "Siempre se aferra al pasado",
+      "La hace temerosa de avanzar"
+    ],
+    "manga": 3,
+    "hint": "Su historia personal moldea su presente."
+  },
+  {
+    "id": 43,
+    "question": "¿Qué parte de la vida humana le fascina a Frieren?",
+    "answer": "Los momentos efímeros y significativos",
+    "wrong": [
+      "La búsqueda de poder",
+      "Los conflictos bélicos",
+      "Las guerras y conquistas"
+    ],
+    "manga": 3,
+    "hint": "Es lo que hace que la vida sea valiosa."
+  },
+  {
+    "id": 44,
+    "question": "¿Qué significado tiene el viaje para Frieren al final de la serie?",
+    "answer": "Es una búsqueda de paz interior y conexión",
+    "wrong": [
+      "Es solo una aventura sin sentido",
+      "Es un camino hacia la guerra",
+      "Es una búsqueda de tesoros"
+    ],
+    "manga": 3,
+    "hint": "Busca algo más profundo que lo material."
+  },
+  {
+    "id": 45,
+    "question": "¿Cómo se siente Frieren sobre su legado como heroína?",
+    "answer": "Es una mezcla de orgullo y deseo de ser recordada con cariño",
+    "wrong": [
+      "Indiferencia total",
+      "Deseo de ser olvidada",
+      "Solo le importa el poder"
+    ],
+    "manga": 3,
+    "hint": "Los recuerdos son importantes para ella."
+  },
+  {
+    "id": 46,
+    "question": "¿Qué simboliza la relación de Frieren con Fern?",
+    "answer": "La continuidad de la amistad y el aprendizaje",
+    "wrong": [
+      "Una rivalidad sin sentido",
+      "Un estancamiento emocional",
+      "Una búsqueda de poder"
+    ],
+    "manga": 3,
+    "hint": "Representa el crecimiento de ambas."
+  },
+  {
+    "id": 47,
+    "question": "¿Qué lección esencial comparte Frieren con sus compañeros?",
+    "answer": "La importancia de vivir en el presente",
+    "wrong": [
+      "La necesidad de conquistar",
+      "El deseo de ser poderosa",
+      "La búsqueda de venganza"
+    ],
+    "manga": 3,
+    "hint": "Es una enseñanza que trasciende su experiencia."
+  },
+  {
+    "id": 48,
+    "question": "¿Cómo lidia Frieren con el dolor de sus pérdidas?",
+    "answer": "Reflexionando sobre su valor y significado",
+    "wrong": [
+      "Negando su existencia",
+      "Viviendo en el pasado",
+      "Evitando hablar de ello"
+    ],
+    "manga": 3,
+    "hint": "Su forma de sanar es profunda."
+  },
+  {
+    "id": 49,
+    "question": "¿Qué papel juegan las aventuras en el desarrollo de Frieren?",
+    "answer": "Son catalizadores para su crecimiento emocional",
+    "wrong": [
+      "Son solo batallas",
+      "No tienen impacto en su vida",
+      "Son solo una búsqueda de tesoros"
+    ],
+    "manga": 3,
+    "hint": "Cada aventura trae nuevas lecciones."
+  },
+  {
+    "id": 50,
+    "question": "¿Cuál es el legado que Frieren espera dejar atrás?",
+    "answer": "Un entendimiento más profundo de la amistad",
+    "wrong": [
+      "Ser recordada como la más fuerte",
+      "Conquistar todos los enemigos",
+      "Ser olvidada en el tiempo"
+    ],
+    "manga": 3,
+    "hint": "Es un deseo que va más allá del poder."
+  },
+  {
+    "id": 51,
+    "question": "¿Cuál es la búsqueda principal de los protagonistas en el manga 4?",
+    "answer": "Encontrar un artefacto perdido.",
+    "wrong": [
+      "Vengar a un amigo caído.",
+      "Derrotar a un villano.",
+      "Buscar una ciudad perdida."
+    ],
+    "manga": 4,
+    "hint": "El artefacto tiene un gran poder."
+  },
+  {
+    "id": 52,
+    "question": "¿Qué tipo de relación tienen los protagonistas en el manga 4?",
+    "answer": "Son amigos de la infancia.",
+    "wrong": [
+      "Son rivales.",
+      "No se conocen.",
+      "Son hermanos."
+    ],
+    "manga": 4,
+    "hint": "Han crecido juntos."
+  },
+  {
+    "id": 53,
+    "question": "¿Qué desafío enfrentan en el camino hacia su objetivo en el manga 4?",
+    "answer": "Enemigos que desean el artefacto.",
+    "wrong": [
+      "Un laberinto mortal.",
+      "Un traidor entre ellos.",
+      "Un monstruo antiguo."
+    ],
+    "manga": 4,
+    "hint": "Los enemigos tienen sus propios motivos."
+  },
+  {
+    "id": 54,
+    "question": "¿Qué lección aprenden los protagonistas en el manga 4?",
+    "answer": "La confianza es esencial.",
+    "wrong": [
+      "El poder es lo más importante.",
+      "La venganza es válida.",
+      "La amistad no importa."
+    ],
+    "manga": 4,
+    "hint": "La lección surge de la experiencia."
+  },
+  {
+    "id": 55,
+    "question": "¿Cuál es el elemento principal del mundo en el manga 4?",
+    "answer": "La magia y sus efectos.",
+    "wrong": [
+      "La tecnología avanzada.",
+      "Los viajes en el tiempo.",
+      "Las criaturas mitológicas."
+    ],
+    "manga": 4,
+    "hint": "La magia influye en la historia."
+  },
+  {
+    "id": 56,
+    "question": "¿Qué motiva a los personajes a seguir adelante en el manga 4?",
+    "answer": "El deseo de proteger a sus seres queridos.",
+    "wrong": [
+      "La fama y el reconocimiento.",
+      "La búsqueda de poder.",
+      "El miedo al fracaso."
+    ],
+    "manga": 4,
+    "hint": "Sus lazos personales son fuertes."
+  },
+  {
+    "id": 57,
+    "question": "¿Cómo se enfrenta el grupo a los enemigos en el manga 4?",
+    "answer": "Trabajando en equipo.",
+    "wrong": [
+      "Luchando individualmente.",
+      "Escapando.",
+      "Usando engaños."
+    ],
+    "manga": 4,
+    "hint": "La unidad es clave."
+  },
+  {
+    "id": 58,
+    "question": "¿Qué simboliza el artefacto en el manga 4?",
+    "answer": "El deseo de poder y responsabilidad.",
+    "wrong": [
+      "La guerra y destrucción.",
+      "La amistad y unión.",
+      "El miedo y la opresión."
+    ],
+    "manga": 4,
+    "hint": "Es más que un objeto físico."
+  },
+  {
+    "id": 59,
+    "question": "¿Qué tipo de enemigos enfrentan en el manga 4?",
+    "answer": "Seres mágicos y poderosos.",
+    "wrong": [
+      "Humanos comunes.",
+      "Animales salvajes.",
+      "Fantamas."
+    ],
+    "manga": 4,
+    "hint": "Su naturaleza es sobrenatural."
+  },
+  {
+    "id": 60,
+    "question": "¿Cómo afecta la historia personal de cada personaje en el manga 4?",
+    "answer": "Muestra sus motivaciones y miedos.",
+    "wrong": [
+      "No tiene relevancia.",
+      "Solo sirve para el drama.",
+      "Es un añadido sin importancia."
+    ],
+    "manga": 4,
+    "hint": "Cada uno tiene un pasado que pesa."
+  },
+  {
+    "id": 61,
+    "question": "¿Cuál es la relación de los personajes principales en el manga 5?",
+    "answer": "Son compañeros de aventura.",
+    "wrong": [
+      "Son enemigos.",
+      "Son familiares.",
+      "Son rivales."
+    ],
+    "manga": 5,
+    "hint": "Se apoyan mutuamente."
+  },
+  {
+    "id": 62,
+    "question": "¿Qué habilidad especial tiene uno de los protagonistas en el manga 5?",
+    "answer": "Control sobre el fuego.",
+    "wrong": [
+      "Telepatía.",
+      "Super fuerza.",
+      "Viajes en el tiempo."
+    ],
+    "manga": 5,
+    "hint": "Es una habilidad muy poderosa."
+  },
+  {
+    "id": 63,
+    "question": "¿Qué conflicto enfrentan en el manga 5?",
+    "answer": "Una guerra entre clanes.",
+    "wrong": [
+      "Una invasión de monstruos.",
+      "Un desastre natural.",
+      "Un torneo de luchadores."
+    ],
+    "manga": 5,
+    "hint": "Las lealtades se ponen a prueba."
+  },
+  {
+    "id": 64,
+    "question": "¿Qué mensaje principal transmite el manga 5?",
+    "answer": "La importancia de la unidad.",
+    "wrong": [
+      "La fuerza individual es clave.",
+      "El odio es justificado.",
+      "La venganza es necesaria."
+    ],
+    "manga": 5,
+    "hint": "El trabajo en equipo es esencial."
+  },
+  {
+    "id": 65,
+    "question": "¿Qué revela la historia del pasado de uno de los personajes en el manga 5?",
+    "answer": "Su lucha personal por la aceptación.",
+    "wrong": [
+      "Su deseo de venganza.",
+      "Su búsqueda de poder.",
+      "Su indiferencia hacia los demás."
+    ],
+    "manga": 5,
+    "hint": "El pasado influye en sus acciones."
+  },
+  {
+    "id": 66,
+    "question": "¿Qué estrategia utilizan los protagonistas en el manga 5?",
+    "answer": "Formar alianzas con otros clanes.",
+    "wrong": [
+      "Atacar sin planear.",
+      "Aislarse.",
+      "Destruir todo a su paso."
+    ],
+    "manga": 5,
+    "hint": "Las alianzas son clave para la victoria."
+  },
+  {
+    "id": 67,
+    "question": "¿Cuál es el resultado del conflicto en el manga 5?",
+    "answer": "Un acuerdo de paz.",
+    "wrong": [
+      "La guerra total.",
+      "La traición de un aliado.",
+      "La desaparición de un clan."
+    ],
+    "manga": 5,
+    "hint": "Se busca una solución duradera."
+  },
+  {
+    "id": 68,
+    "question": "¿Qué papel juegan los personajes secundarios en el manga 5?",
+    "answer": "Son fundamentales para el desarrollo de la trama.",
+    "wrong": [
+      "No tienen impacto.",
+      "Solo están de fondo.",
+      "Son antagonistas."
+    ],
+    "manga": 5,
+    "hint": "Cada uno aporta algo valioso."
+  },
+  {
+    "id": 69,
+    "question": "¿Cuál es la temática central del manga 6?",
+    "answer": "La lucha por la justicia.",
+    "wrong": [
+      "El amor prohibido.",
+      "La búsqueda de tesoros.",
+      "La venganza personal."
+    ],
+    "manga": 6,
+    "hint": "Los protagonistas buscan cambiar el mundo."
+  },
+  {
+    "id": 70,
+    "question": "¿Qué grupo antagonista se enfrenta a los protagonistas en el manga 6?",
+    "answer": "Una organización corrupta.",
+    "wrong": [
+      "Un grupo de héroes.",
+      "Un ejército de monstruos.",
+      "Un clan rival."
+    ],
+    "manga": 6,
+    "hint": "La corrupción está en el corazón de la trama."
+  },
+  {
+    "id": 71,
+    "question": "¿Qué herramienta utilizan los protagonistas para luchar contra el mal en el manga 6?",
+    "answer": "Un artefacto mágico.",
+    "wrong": [
+      "Tecnología avanzada.",
+      "Armas de fuego.",
+      "La fuerza bruta."
+    ],
+    "manga": 6,
+    "hint": "El artefacto tiene un gran significado."
+  },
+  {
+    "id": 72,
+    "question": "¿Cómo se sienten los personajes hacia la justicia en el manga 6?",
+    "answer": "Están dispuestos a luchar por ella.",
+    "wrong": [
+      "Son indiferentes.",
+      "Temen enfrentarse a ella.",
+      "No creen en la justicia."
+    ],
+    "manga": 6,
+    "hint": "Sus convicciones son fuertes."
+  },
+  {
+    "id": 73,
+    "question": "¿Qué impacto tiene el conflicto en la comunidad en el manga 6?",
+    "answer": "Desvela la corrupción en la sociedad.",
+    "wrong": [
+      "No tiene efecto.",
+      "Une a todos.",
+      "Causa miedo generalizado."
+    ],
+    "manga": 6,
+    "hint": "La lucha expone verdades ocultas."
+  },
+  {
+    "id": 74,
+    "question": "¿Qué descubrimiento hacen los protagonistas sobre ellos mismos en el manga 6?",
+    "answer": "Que son más fuertes juntos.",
+    "wrong": [
+      "Que son débiles.",
+      "Que no confían entre ellos.",
+      "Que no tienen futuro."
+    ],
+    "manga": 6,
+    "hint": "La unidad es su mayor fortaleza."
+  },
+  {
+    "id": 75,
+    "question": "¿Cuál es el enfoque del manga 7 en términos de desarrollo de personajes?",
+    "answer": "Explora sus dilemas morales.",
+    "wrong": [
+      "Se centra solo en la acción.",
+      "Ignora sus emociones.",
+      "Desarrolla solo a un personaje."
+    ],
+    "manga": 7,
+    "hint": "Los personajes enfrentan decisiones difíciles."
+  },
+  {
+    "id": 76,
+    "question": "¿Qué elemento del pasado influye en los personajes en el manga 7?",
+    "answer": "Eventos traumáticos.",
+    "wrong": [
+      "Sorpresas agradables.",
+      "Historias de amor.",
+      "Una vida sin preocupaciones."
+    ],
+    "manga": 7,
+    "hint": "El pasado pesa en sus decisiones."
+  },
+  {
+    "id": 77,
+    "question": "¿Cómo se relacionan los personajes entre sí en el manga 7?",
+    "answer": "A través de la empatía y el apoyo.",
+    "wrong": [
+      "Son competidores.",
+      "No se hablan.",
+      "Solo buscan beneficios."
+    ],
+    "manga": 7,
+    "hint": "Se apoyan en momentos difíciles."
+  },
+  {
+    "id": 78,
+    "question": "¿Qué tipo de escenario se presenta en el manga 7?",
+    "answer": "Un mundo post-apocalíptico.",
+    "wrong": [
+      "Un mundo de fantasía.",
+      "Un futuro utópico.",
+      "Un entorno moderno."
+    ],
+    "manga": 7,
+    "hint": "La supervivencia es un tema clave."
+  },
+  {
+    "id": 79,
+    "question": "¿Cuál es el papel de la naturaleza en el manga 7?",
+    "answer": "Es tanto un aliado como un enemigo.",
+    "wrong": [
+      "No tiene importancia.",
+      "Solo es un fondo.",
+      "Siempre es benévola."
+    ],
+    "manga": 7,
+    "hint": "La naturaleza influye en la vida de los personajes."
+  },
+  {
+    "id": 80,
+    "question": "¿Qué significado tiene la lucha en el manga 7?",
+    "answer": "Es un reflejo de la lucha interna de los personajes.",
+    "wrong": [
+      "Es solo acción.",
+      "No tiene simbolismo.",
+      "Es solo entretenimiento."
+    ],
+    "manga": 7,
+    "hint": "Las batallas tienen un trasfondo emocional."
+  },
+  {
+    "id": 81,
+    "question": "¿Qué tipo de narrativa se utiliza en el manga 8?",
+    "answer": "Narrativa no lineal.",
+    "wrong": [
+      "Narrativa cronológica.",
+      "Narrativa simple.",
+      "Narrativa en primera persona."
+    ],
+    "manga": 8,
+    "hint": "La historia salta entre diferentes tiempos."
+  },
+  {
+    "id": 82,
+    "question": "¿Cómo afecta el uso de la narrativa no lineal en el manga 8?",
+    "answer": "Crea intriga y misterio.",
+    "wrong": [
+      "Es confuso.",
+      "No tiene impacto.",
+      "Es aburrido."
+    ],
+    "manga": 8,
+    "hint": "Cada salto en el tiempo añade preguntas."
+  },
+  {
+    "id": 83,
+    "question": "¿Qué relación tienen los protagonistas en el manga 8?",
+    "answer": "Son amigos de la infancia con un pasado compartido.",
+    "wrong": [
+      "Son desconocidos.",
+      "Son enemigos.",
+      "Son familiares lejanos."
+    ],
+    "manga": 8,
+    "hint": "Su pasado les une."
+  },
+  {
+    "id": 84,
+    "question": "¿Qué evento clave ocurre en el pasado de los protagonistas en el manga 8?",
+    "answer": "Una traición inesperada.",
+    "wrong": [
+      "Un rescate heroico.",
+      "Una celebración.",
+      "Una batalla ganada."
+    ],
+    "manga": 8,
+    "hint": "La traición afecta su futuro."
+  },
+  {
+    "id": 85,
+    "question": "¿Cuál es el impacto de la traición en los personajes en el manga 8?",
+    "answer": "Les lleva a cuestionar su confianza.",
+    "wrong": [
+      "No les afecta.",
+      "Fortalece su amistad.",
+      "Les inspira a luchar."
+    ],
+    "manga": 8,
+    "hint": "Las relaciones se vuelven complicadas."
+  },
+  {
+    "id": 86,
+    "question": "¿Qué simboliza el tiempo en el manga 8?",
+    "answer": "La inevitabilidad del cambio.",
+    "wrong": [
+      "La estancación.",
+      "El poder absoluto.",
+      "La vida eterna."
+    ],
+    "manga": 8,
+    "hint": "El tiempo trae transformaciones."
+  },
+  {
+    "id": 87,
+    "question": "¿Qué tipo de enemigo enfrentan los protagonistas en el manga 8?",
+    "answer": "Un rival con un pasado compartido.",
+    "wrong": [
+      "Un extraño.",
+      "Una fuerza de la naturaleza.",
+      "Un monstruo."
+    ],
+    "manga": 8,
+    "hint": "La conexión con el pasado complica la lucha."
+  },
+  {
+    "id": 88,
+    "question": "¿Cuál es la principal lección que aprenden los personajes en el manga 8?",
+    "answer": "Que el pasado no define el futuro.",
+    "wrong": [
+      "El poder es lo único que importa.",
+      "No se puede confiar en nadie.",
+      "La venganza es justificada."
+    ],
+    "manga": 8,
+    "hint": "El crecimiento personal es crucial."
+  },
+  {
+    "id": 89,
+    "question": "¿Cuál es el enfoque principal del manga 9?",
+    "answer": "La lucha por la identidad.",
+    "wrong": [
+      "Una búsqueda de tesoros.",
+      "Una guerra épica.",
+      "Un romance imposible."
+    ],
+    "manga": 9,
+    "hint": "Los personajes buscan entenderse a sí mismos."
+  },
+  {
+    "id": 90,
+    "question": "¿Cómo se representa la identidad en el manga 9?",
+    "answer": "A través de recuerdos y experiencias.",
+    "wrong": [
+      "Solo a través de luchas.",
+      "Sin importancia.",
+      "Como un concepto fijo."
+    ],
+    "manga": 9,
+    "hint": "La identidad es fluida y cambiante."
+  },
+  {
+    "id": 91,
+    "question": "¿Qué dilema enfrentan los personajes en su búsqueda de identidad en el manga 9?",
+    "answer": "Elegir entre el deber y sus deseos.",
+    "wrong": [
+      "No tienen dilemas.",
+      "Solo buscan la fama.",
+      "No les importa su pasado."
+    ],
+    "manga": 9,
+    "hint": "Sus elecciones definen quiénes son."
+  },
+  {
+    "id": 92,
+    "question": "¿Qué papel juega el entorno en la búsqueda de identidad en el manga 9?",
+    "answer": "Influye en sus decisiones y percepciones.",
+    "wrong": [
+      "No tiene impacto.",
+      "Es un mero fondo.",
+      "Es solo un obstáculo."
+    ],
+    "manga": 9,
+    "hint": "El entorno refleja sus conflictos internos."
+  },
+  {
+    "id": 93,
+    "question": "¿Cómo se desarrollan las relaciones entre los personajes en el manga 9?",
+    "answer": "Son complejas y multidimensionales.",
+    "wrong": [
+      "Son simples y unidimensionales.",
+      "Solo existen para el drama.",
+      "No hay relaciones importantes."
+    ],
+    "manga": 9,
+    "hint": "Cada relación tiene su propio trasfondo."
+  },
+  {
+    "id": 94,
+    "question": "¿Qué simboliza el viaje de los personajes en el manga 9?",
+    "answer": "Un camino hacia el autodescubrimiento.",
+    "wrong": [
+      "Solo una búsqueda de riqueza.",
+      "Un viaje sin rumbo.",
+      "Una lucha sin significado."
+    ],
+    "manga": 9,
+    "hint": "El viaje es interno y externo."
+  },
+  {
+    "id": 95,
+    "question": "¿Qué papel juegan los sueños en el manga 9?",
+    "answer": "Reflejan sus aspiraciones y miedos.",
+    "wrong": [
+      "No tienen importancia.",
+      "Solo son ilusiones.",
+      "Siempre son positivos."
+    ],
+    "manga": 9,
+    "hint": "Los sueños son parte de su viaje."
+  },
+  {
+    "id": 96,
+    "question": "¿Cuál es el conflicto central del manga 10?",
+    "answer": "La lucha entre la tradición y el cambio.",
+    "wrong": [
+      "Una guerra entre reinos.",
+      "Un enfrentamiento romántico.",
+      "Una competencia deportiva."
+    ],
+    "manga": 10,
+    "hint": "Los personajes deben decidir su rumbo."
+  },
+  {
+    "id": 97,
+    "question": "¿Qué tradición se pone en duda en el manga 10?",
+    "answer": "Las normas familiares.",
+    "wrong": [
+      "La amistad.",
+      "Las leyes del país.",
+      "Los acuerdos internacionales."
+    ],
+    "manga": 10,
+    "hint": "Las tradiciones son cuestionadas por el cambio."
+  },
+  {
+    "id": 98,
+    "question": "¿Cómo afecta la lucha entre tradición y cambio a los personajes en el manga 10?",
+    "answer": "Crea tensiones y divisiones.",
+    "wrong": [
+      "No les afecta.",
+      "Los une más.",
+      "Los hace felices."
+    ],
+    "manga": 10,
+    "hint": "El conflicto es emocional y social."
+  },
+  {
+    "id": 99,
+    "question": "¿Qué papel juegan los ancianos en el manga 10?",
+    "answer": "Representan la tradición.",
+    "wrong": [
+      "No tienen influencia.",
+      "Solo son personajes de fondo.",
+      "Fomentan el cambio."
+    ],
+    "manga": 10,
+    "hint": "Los ancianos son guardianes de la cultura."
+  },
+  {
+    "id": 100,
+    "question": "¿Qué mensaje se transmite sobre el cambio en el manga 10?",
+    "answer": "Es necesario para el crecimiento.",
+    "wrong": [
+      "El cambio debe ser evitado.",
+      "Las tradiciones siempre son mejores.",
+      "El cambio es destructivo."
+    ],
+    "manga": 10,
+    "hint": "El cambio trae nuevas oportunidades."
+  }
+]
