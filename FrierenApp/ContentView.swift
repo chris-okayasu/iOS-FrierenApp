@@ -14,6 +14,9 @@ struct ContentView: View {
     @State private var scalePlayButton = false
     @State private var moveBackgroundImage = false
     @State private var animateViewsIn = false
+    @State private var showInstructions = false
+    @State private var settingsOpen = false
+    
     var body: some View {
         
         GeometryReader{ geo in // for the size of the screen
@@ -88,6 +91,7 @@ struct ContentView: View {
                             
                             Button{
                                 // Instructions
+                                showInstructions.toggle()
                             } label: {
                                 Image(systemName: "info.circle.fill")
                                     .font(.largeTitle)
@@ -97,7 +101,6 @@ struct ContentView: View {
                             .transition(.offset(x: -geo.size.width / 3))
                             
                         }
-                        
                         
                         .animation(.easeOut(duration: 2).delay(3), value: animateViewsIn)
                         .padding(.trailing, 20)
@@ -135,6 +138,7 @@ struct ContentView: View {
                             AnimatedVStack(animateViewsIn: animateViewsIn, animationDuration: 2, animationDelay: 4) {
                                 Button{
                                     // setitngs
+                                    settingsOpen.toggle()
                                 } label: {
                                     Image(systemName: "gearshape.fill")
                                         .font(.largeTitle)
@@ -155,13 +159,24 @@ struct ContentView: View {
             .frame(width: geo.size.width, height: geo.size.height) // center ZStack
             
         } // end of geometry
+        
         .ignoresSafeArea() // use whole screen for geometry reader
         
         .onAppear { // Once the View appears
             animateViewsIn = true // all animations
 //            playAudio() // audio
         }
+        
+        .sheet(isPresented: $showInstructions){
+            InstructionsUI()
+        }
+        
+        .sheet(isPresented: $settingsOpen){
+            SettingsUI()
+        }
+        
     }
+    
     private func playAudio() {
         let sound = Bundle.main.path(forResource: "magic-in-the-air", ofType: "mp3")
         audioPlayer = try! AVAudioPlayer(contentsOf: URL(filePath: sound!))
