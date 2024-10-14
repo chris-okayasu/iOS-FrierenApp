@@ -20,13 +20,13 @@ struct InstructionsUI: View {
                     .scaledToFit()
                     .frame(width: 150)
                     .cornerRadius(20)
-                    .padding(.top, (10))
+                    .padding(.top, (20))
                 
                 // scroll section
                 Text("How to play")
                     .font(.largeTitle)
                     .padding()
-                
+                    .foregroundColor(Color("Simple-Black"))
                 ScrollView{
                         
                     VStack(alignment: .leading){

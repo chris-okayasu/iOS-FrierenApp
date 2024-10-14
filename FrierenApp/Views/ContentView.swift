@@ -10,12 +10,13 @@ import AVKit
 
 struct ContentView: View {
     @State private var audioPlayer: AVAudioPlayer!
-    //    @Environment(\.colorScheme) var colorScheme
+//        @Environment(\.colorScheme) var colorScheme
     @State private var scalePlayButton = false
     @State private var moveBackgroundImage = false
     @State private var animateViewsIn = false
     @State private var showInstructions = false
     @State private var settingsOpen = false
+    @State private var playGame = false
     
     var body: some View {
         
@@ -60,7 +61,7 @@ struct ContentView: View {
                             .transition(.move(edge: .top)) // Transición aplicada al contenido del VStack, no al AnimatedVStack
                         }
                     }
-                    
+                    Spacer()
                     
                     // Scores Section
                     VStack{
@@ -110,6 +111,7 @@ struct ContentView: View {
                             AnimatedVStack(animateViewsIn: animateViewsIn, animationDuration: 2, animationDelay: 2) {
                                 Button{
                                     // Start the game
+                                    playGame.toggle()
                                 } label: {
                                     Text("Play")
                                         .font(.largeTitle)
@@ -173,6 +175,10 @@ struct ContentView: View {
         
         .sheet(isPresented: $settingsOpen){
             SettingsUI()
+        }
+        
+        .fullScreenCover(isPresented: $playGame){
+            Gameplay()
         }
         
     }
