@@ -40,6 +40,7 @@ struct ContentView: View {
                 // So we need both vstack and if because if will trigger the .onAppear()
                 // however since we are adding .animation the IF statement cannot handle with that feature since it works for views like VStack or smiliar not for bools, so if animateViewsIn is true it means we are in this screen and each button is contained by its VStack and we can animate that VStack if is false the VStack will be just empty and nothing happens
                 VStack{
+                    // MARK: title section
                     VStack{
                         AnimatedVStack(animateViewsIn: animateViewsIn, animationDuration: 2, animationDelay: 2) {
                             VStack {
@@ -63,7 +64,7 @@ struct ContentView: View {
                     }
                     Spacer()
                     
-                    // Scores Section
+                    // MARK: score section
                     VStack{
                         AnimatedVStack(animateViewsIn: animateViewsIn, animationDuration: 2, animationDelay: 2) {
                             VStack{
@@ -85,7 +86,7 @@ struct ContentView: View {
                     }
                     .animation(.linear(duration: 2).delay(4), value: animateViewsIn)
                     
-                    // Buttons at the bottom
+                    // MARK: buttons
                     HStack {
                         AnimatedVStack(animateViewsIn: animateViewsIn, animationDuration: 2, animationDelay: 4) {
                             // Info Button
@@ -106,7 +107,7 @@ struct ContentView: View {
                         .animation(.easeOut(duration: 2).delay(3), value: animateViewsIn)
                         .padding(.trailing, 20)
                         
-                        // Play Button
+                        // MARK: Play Button
                         VStack{
                             AnimatedVStack(animateViewsIn: animateViewsIn, animationDuration: 2, animationDelay: 2) {
                                 Button{
@@ -135,7 +136,7 @@ struct ContentView: View {
                         }
                         .animation(.easeOut(duration: 1).delay(2), value: animateViewsIn)
                         
-                        // Setting Button
+                        
                         VStack{
                             AnimatedVStack(animateViewsIn: animateViewsIn, animationDuration: 2, animationDelay: 4) {
                                 Button{
