@@ -87,6 +87,7 @@ struct Gameplay: View {
                                     withAnimation(.easeInOut(duration: 1)){
                                         revealHint = true
                                     }
+                                    SoundManager.shared.playFlipSound()
                                 }
                                 .rotation3DEffect(.degrees(revealHint ? 1440 : 0), axis: (x:0, y:1, z:0))
                                 .scaleEffect(revealHint ? 5 : 1)
@@ -120,6 +121,7 @@ struct Gameplay: View {
                                     withAnimation(.easeInOut(duration:0.1).repeatCount(10).delay(5).repeatForever()){
 //                                        hintWiggle = true
                                     }
+                                    SoundManager.shared.playFlipSound()
                                 }
                                 .onTapGesture {
                                     withAnimation(.easeInOut(duration: 1)){
@@ -169,6 +171,7 @@ struct Gameplay: View {
                                                 tappedCorrectAnswer = true
                                             }
                                             SoundManager.shared.playSuccessSound()
+                                            Feedback.shared.giveCorrectFeedback()
                                         }
                                     }
                                 }
@@ -189,6 +192,7 @@ struct Gameplay: View {
                                                 wrongAnswersTapped.append(i)
                                             }
                                             SoundManager.shared.playWrongSound()
+                                            Feedback.shared.giveWrongFeedback()
                                         }
                                         .scaleEffect(wrongAnswersTapped.contains(i) ? 0.8 : 1)
                                         .disabled(tappedCorrectAnswer || wrongAnswersTapped.contains(i))
