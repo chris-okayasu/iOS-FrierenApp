@@ -23,7 +23,7 @@ struct ContentView: View {
         GeometryReader{ geo in // for the size of the screen
             
             ZStack{
-                // background image
+                // MARK: background image
                 Image(.frieren)
                     .resizable()
                     .scaledToFill()
@@ -166,8 +166,8 @@ struct ContentView: View {
         .ignoresSafeArea() // use whole screen for geometry reader
         
         .onAppear { // Once the View appears
-            animateViewsIn = true // all animations
-//            playAudio() // audio
+            animateViewsIn = true
+//            SoundManager.shared.mainPageMusic()
         }
         
         .sheet(isPresented: $showInstructions){
@@ -184,12 +184,12 @@ struct ContentView: View {
         
     }
     
-    private func playAudio() {
-        let sound = Bundle.main.path(forResource: "magic-in-the-air", ofType: "mp3")
-        audioPlayer = try! AVAudioPlayer(contentsOf: URL(filePath: sound!))
-        audioPlayer.numberOfLoops = -1
-        audioPlayer.play()
-    }
+//    private func playAudio() {
+//        let sound = Bundle.main.path(forResource: "magic-in-the-air", ofType: "mp3")
+//        audioPlayer = try! AVAudioPlayer(contentsOf: URL(filePath: sound!))
+//        audioPlayer.numberOfLoops = -1
+//        audioPlayer.play()
+//    }
 }
 
 #Preview {
