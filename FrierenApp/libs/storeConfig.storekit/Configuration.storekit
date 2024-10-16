@@ -1,0 +1,189 @@
+{
+  "appPolicies" : {
+    "eula" : "",
+    "policies" : [
+      {
+        "locale" : "en_US",
+        "policyText" : "",
+        "policyURL" : ""
+      }
+    ]
+  },
+  "identifier" : "0338FA77",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "9.99",
+      "familyShareable" : false,
+      "internalID" : "553DFAE7",
+      "localizations" : [
+        {
+          "description" : "Unlock trivia question for Sōsō no Frieren manga 4",
+          "displayName" : "Sōsō no Frieren Manga 4 Questions",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "frieren4",
+      "promotionalImageID" : "1215F809",
+      "referenceName" : "FRIEREN4",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "9.99",
+      "familyShareable" : false,
+      "internalID" : "3B0D9A66",
+      "localizations" : [
+        {
+          "description" : "Unlock trivia question for Sōsō no Frieren manga 5",
+          "displayName" : "Sōsō no Frieren Manga 5 Questions",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "frieren5",
+      "promotionalImageID" : "5FE62AD3",
+      "referenceName" : "FRIEREN5",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "9.99",
+      "familyShareable" : false,
+      "internalID" : "759C32A3",
+      "localizations" : [
+        {
+          "description" : "Unlock trivia question for Sōsō no Frieren manga 6",
+          "displayName" : "Sōsō no Frieren Manga 6 Questions",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "frieren6",
+      "promotionalImageID" : "BD703E37",
+      "referenceName" : "FRIEREN6",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "9.99",
+      "familyShareable" : false,
+      "internalID" : "A2C58A88",
+      "localizations" : [
+        {
+          "description" : "Unlock trivia question for Sōsō no Frieren manga 7",
+          "displayName" : "Sōsō no Frieren Manga 7 Questions",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "frieren7",
+      "promotionalImageID" : "B511E728",
+      "referenceName" : "FRIEREN7",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "9.99",
+      "familyShareable" : false,
+      "internalID" : "E7B50B3E",
+      "localizations" : [
+        {
+          "description" : "Unlock trivia question for Sōsō no Frieren manga 8",
+          "displayName" : "Sōsō no Frieren Manga 8 Questions",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "frieren8",
+      "promotionalImageID" : "C430438D",
+      "referenceName" : "FRIEREN8",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "9.99",
+      "familyShareable" : false,
+      "internalID" : "C6A6ED83",
+      "localizations" : [
+        {
+          "description" : "Unlock trivia question for Sōsō no Frieren manga 9",
+          "displayName" : "Sōsō no Frieren Manga 9 Questions",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "frieren9",
+      "promotionalImageID" : "BFF1713C",
+      "referenceName" : "FRIEREN9",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "9.99",
+      "familyShareable" : false,
+      "internalID" : "D3A337A3",
+      "localizations" : [
+        {
+          "description" : "Unlock trivia question for Sōsō no Frieren manga 10",
+          "displayName" : "Sōsō no Frieren Manga 10 Questions",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "frieren10",
+      "promotionalImageID" : "480BE793",
+      "referenceName" : "FRIEREN10",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}

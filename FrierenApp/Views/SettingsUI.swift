@@ -10,8 +10,7 @@ import SwiftUI
 struct SettingsUI: View {
     
     @Environment(\.dismiss) private var dismiss
-    
-    @State private var books: [BookStatus] = [.active, .active, .inactive, .locked, .locked, .locked , .locked, .locked, .locked, .locked]
+    @EnvironmentObject private var store: Store
     
     var body: some View {
         ZStack{
@@ -24,10 +23,10 @@ struct SettingsUI: View {
                 
                 ScrollView{
                     LazyVGrid(columns: [GridItem(), GridItem()]){
-                        ForEach(0..<books.count, id: \.self) { i in
-                            // Usamos el componente BookView
-                            BookView(index: i, status: $books[i])  // Pasamos el estado con Binding
+                        ForEach(0..<store.books.count, id: \.self) { i in
+                            BookView(index: i, status: $store.books[i])
                         }
+
                         .padding()
                     }
                 }
@@ -35,8 +34,16 @@ struct SettingsUI: View {
                 Button("Done"){
                     dismiss()
                 }
+                
                 .doneButton()
                 .foregroundColor(Color("simple-black"))
+                
+                Button("Restaurar Compras") {
+                    Task {
+                        await store.restorePurchases()
+                    }
+                }
+                .foregroundColor(.red)
             }
         }
     }
@@ -44,4 +51,5 @@ struct SettingsUI: View {
 
 #Preview {
     SettingsUI()
+        .environmentObject(Store())
 }
