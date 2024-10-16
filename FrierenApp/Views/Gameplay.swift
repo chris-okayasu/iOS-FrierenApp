@@ -80,7 +80,7 @@ struct Gameplay: View {
                                 .transition(.scale)
                                 .onAppear {
                                     withAnimation(.easeInOut(duration:0.1).repeatCount(10).delay(5).repeatForever()){
-//                                        hintWiggle = true
+                                        hintWiggle = true
                                     }
                                 }
                                 .onTapGesture {
@@ -117,16 +117,16 @@ struct Gameplay: View {
                                 .padding()
                                 .padding(.trailing, 20)
                                 .transition(.scale)
-                                .onAppear {
+                                .onTapGesture {
                                     withAnimation(.easeInOut(duration:0.1).repeatCount(10).delay(5).repeatForever()){
-//                                        hintWiggle = true
+                                        hintWiggle = true
                                     }
-                                    SoundManager.shared.playFlipSound()
                                 }
                                 .onTapGesture {
                                     withAnimation(.easeInOut(duration: 1)){
                                         revealManga = true
                                     }
+                                SoundManager.shared.playFlipSound()
                                 }
                                 .rotation3DEffect(.degrees(revealManga ? 1440 : 0), axis: (x:0, y:1, z:0))
                                 .scaleEffect(revealManga ? 5 : 1)
