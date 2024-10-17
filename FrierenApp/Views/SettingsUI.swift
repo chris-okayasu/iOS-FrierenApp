@@ -37,12 +37,6 @@ struct SettingsUI: View {
                 
                 .doneButton()
                 .foregroundColor(Color("simple-black"))
-                
-                Button("Restaurar Compras") {
-                    Task {
-                        await store.restorePurchases()
-                    }
-                }
                 .foregroundColor(.red)
             }
         }
