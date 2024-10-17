@@ -1,58 +1,100 @@
+//
+//  Game.swift
+//  FrierenApp
+//
+//  Created by chris on 2024/10/17.
+//
+
 import Foundation
 
 @MainActor
 class Game: ObservableObject {
-    // Stores all questions from the JSON
+    @Published var gameScore: Int = 0
+    @Published var questionScore: Int = 5
+    @Published var recentScores: [Int] = [0,0,0]
+    @Published var higherScore: Int = 0
+    
     private var allQuestions: [QuestionModel] = []
-    // Keeps track of answered questions by their IDs
     private var answeredQuestions: [Int] = []
-    // Questions filtered by manga
     var filteredQuestions: [QuestionModel] = []
-    // Currently active question
-    @Published var currentQuestion = Constants.previewQuestion // Marked as @Published to notify views on changes
+    var currentQuestion = Constants.previewQuestion
+    var answers: [String] = []
     
-    init() {
-        decodeQuestions() // Decode the questions as soon as the game is started
+    var correctAnswer: String {
+        currentQuestion.answers.first(where: {$0.value == true})!.key
     }
     
-    // Filters questions based on selected manga IDs
+    init () {
+        decodeQuestions() // decode the questions as soon as the game is started
+    }
+    func startGame () {
+        gameScore = 0
+        questionScore = 5
+        answeredQuestions = []
+    }
+    
     func filterQuestions(to manga: [Int]) {
-        filteredQuestions = allQuestions.filter { manga.contains($0.manga) }
+        filteredQuestions = allQuestions.filter{ manga.contains($0.manga)}
     }
     
-    // Generates a new random question that has not been answered yet
     func newQuestion() {
+        
         if filteredQuestions.isEmpty {
-            return // If there are no filtered questions, exit the function
+            return
         }
         
-        // Reset answered questions if all have been answered
+        // Reset the question is already answer all the questions
         if answeredQuestions.count == filteredQuestions.count {
             answeredQuestions = []
         }
         
-        // Get a random question and ensure it hasn't been answered yet
+        // Get a random question, if answeredQuestions contains the id go into while and get a new one
+        // this should not be infinite since if all of them are already answered the code will blank the array answeredQuestions = []
         var potentialQuestion = filteredQuestions.randomElement()!
         while answeredQuestions.contains(potentialQuestion.id) {
             potentialQuestion = filteredQuestions.randomElement()!
         }
-        
-        // Update the current question
         currentQuestion = potentialQuestion
+        
+        answers = []
+        for a in currentQuestion.answers.keys {
+            answers.append(a)
+        }
+        answers.shuffle() // just deorganize de array
+        questionScore = 5
     }
     
-    // Decodes questions from a local JSON file
+    func correct() {
+        answeredQuestions.append(currentQuestion.id)
+        // TODO: Update score
+        gameScore += questionScore
+    }
+    
+    func endGame() {
+        recentScores[2] = recentScores[1]
+        recentScores[1] = recentScores[0]
+        recentScores[0] = gameScore
+    }
+    
+    func bestScore(){
+        if let maxRecentScore = recentScores.max() {
+                if higherScore < maxRecentScore {
+                    higherScore = maxRecentScore
+                }
+            }
+    }
+    
     private func decodeQuestions() {
         if let url = Bundle.main.url(forResource: "trivia", withExtension: "json") {
             do {
                 let data = try Data(contentsOf: url)
                 let questions = try JSONDecoder().decode([QuestionModel].self, from: data)
                 allQuestions = questions
-                filteredQuestions = allQuestions // Initially, all questions are filtered
+                filteredQuestions = allQuestions
             } catch {
-                print("Error decoding JSON data: \(error)") // Handle the error gracefully
+                print("Error decoding JSON data: \(error)")
             }
         }
     }
+    
 }
-
