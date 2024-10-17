@@ -113,7 +113,8 @@ struct ContentView: View {
                         VStack{
                             AnimatedVStack(animateViewsIn: animateViewsIn, animationDuration: 2, animationDelay: 2) {
                                 Button{
-                                    // Start the game
+                                    filterQuestions()
+                                    game.startGame()
                                     playGame.toggle()
                                 } label: {
                                     Text("Play")
@@ -121,15 +122,17 @@ struct ContentView: View {
                                         .foregroundColor(.white)
                                         .padding(.vertical, 7)
                                         .padding(.horizontal, 50)
-                                        .background(Color("first-color"))
+                                        .background(store.books.contains(.active) ? Color("first-color") : .red)
                                         .cornerRadius(10)
                                         .shadow(radius: 10)
                                 }
-                                
+                                .disabled(store.books.contains(.active) ? false: true)
                                 .scaleEffect(scalePlayButton ? 1.2 : 1)
                                 .onAppear{
                                     withAnimation(.easeInOut(duration: 1.3).repeatForever()) {
-                                        scalePlayButton.toggle()
+                                        if store.books.contains(.active){
+                                            scalePlayButton.toggle()
+                                        }
                                     }
                                 }
                                 .transition(.offset(y: geo.size.height/3))
@@ -158,10 +161,22 @@ struct ContentView: View {
                         .padding(.leading, 20)
                     }
                     Spacer(minLength: 100)
-                    
                 }
             }
             .frame(width: geo.size.width, height: geo.size.height) // center ZStack
+            VStack{
+                if animateViewsIn{
+                    if store.books.contains(.active) == false {
+                        Text("Select at least one book to start playing!")
+                            .foregroundColor(.white)
+                            .multilineTextAlignment(.center)
+                            .transition(.opacity)
+                            .frame(width: geo.size.width, height: geo.size.height)
+                    }
+                }
+            }
+            .animation(.easeInOut.delay(2), value: animateViewsIn)
+            
             
         } // end of geometry
         
@@ -188,12 +203,18 @@ struct ContentView: View {
         
     }
     
-//    private func playAudio() {
-//        let sound = Bundle.main.path(forResource: "magic-in-the-air", ofType: "mp3")
-//        audioPlayer = try! AVAudioPlayer(contentsOf: URL(filePath: sound!))
-//        audioPlayer.numberOfLoops = -1
-//        audioPlayer.play()
-//    }
+    private func filterQuestions(){
+        var books: [Int] = []
+        for (i, status) in store.books.enumerated(){
+            if status == .active {
+                books.append(i+1)
+            }
+        }
+        game.filterQuestions(to: books)
+        game.newQuestion()
+    }
+    
+    
 }
 
 #Preview {

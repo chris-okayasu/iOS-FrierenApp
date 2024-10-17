@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 @MainActor
 class Game: ObservableObject {
@@ -66,8 +67,9 @@ class Game: ObservableObject {
     
     func correct() {
         answeredQuestions.append(currentQuestion.id)
-        // TODO: Update score
-        gameScore += questionScore
+        withAnimation{
+            gameScore += questionScore
+        }
     }
     
     func endGame() {
