@@ -11,6 +11,7 @@ import AVKit
 struct Gameplay: View {
     
     @Environment(\.dismiss) private var dissmiss
+    @EnvironmentObject private var game: Game
     @Namespace private var namespace
     @State private var musicPlayer: AVAudioPlayer!
     @State private var sfxPlayer: AVAudioPlayer!
@@ -307,4 +308,5 @@ struct Gameplay: View {
 
 #Preview {
     Gameplay()
+        .environmentObject(Game())
 }
