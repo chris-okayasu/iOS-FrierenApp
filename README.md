@@ -27,6 +27,7 @@ The home screen has 3 main buttons:
    <img width="502" alt="Screenshot 2024-10-18 at 8 38 14" src="https://github.com/user-attachments/assets/6dd496ea-6624-456f-ba8b-212406eec6eb">
 
 8. **Play**: This is the button that starts the game.
+   
    <img width="552" alt="Screenshot 2024-10-18 at 8 36 26" src="https://github.com/user-attachments/assets/67c4ba88-d3c2-4031-90dc-855ac8f6f7e6">
 
 
