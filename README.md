@@ -1,4 +1,4 @@
-# Welcome to the trivia game inspired by the first 10 mangas of the anime *So So no Frieren*
+# Welcome to the trivia game inspired by the first 10 mangas of the anime *Sōsō no Frieren*
 ![1355045](https://github.com/user-attachments/assets/8a5a61e4-dba1-41ae-9ba7-db82cd36a298)
 
 ## Application Details
