@@ -11,7 +11,7 @@ The home screen has 3 main buttons:
    <img width="487" alt="Screenshot 2024-10-18 at 8 37 00" src="https://github.com/user-attachments/assets/e2901b74-7dc0-471d-b578-0b8446d18d89">
 
 2. **Settings**: From here, you can choose the book(s) from *So So no Frieren* from which the questions will be drawn.
-  ![Uploading Screenshot 2024-10-18 at 8.37.26.png…]()
+  <img width="501" alt="Screenshot 2024-10-18 at 8 37 26" src="https://github.com/user-attachments/assets/789e6984-73e6-46be-8da0-c6565d8531e5">
 
 4. The first 3 books are completely free, with the third one initially disabled but available after selection.
   <img width="513" alt="Screenshot 2024-10-18 at 8 37 43" src="https://github.com/user-attachments/assets/33a46d22-fa5d-424e-bc01-0a52a2fc4152">
