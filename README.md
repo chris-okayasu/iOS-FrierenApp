@@ -19,9 +19,11 @@ The home screen has 3 main buttons:
   <img width="513" alt="Screenshot 2024-10-18 at 8 37 43" src="https://github.com/user-attachments/assets/33a46d22-fa5d-424e-bc01-0a52a2fc4152">
 
 6. Starting from the fourth book, you need to purchase the specific book to use it in the game, with a cost of $9.99 per book.
+   
   <img width="523" alt="Screenshot 2024-10-18 at 8 37 57" src="https://github.com/user-attachments/assets/7c28c367-9f71-4003-8ee8-89075a285cd4">
   
   Once the selected book has been purchased, it will be added to the list of available books from which you can either select or deselect it.
+  
   <img width="502" alt="Screenshot 2024-10-18 at 8 38 14" src="https://github.com/user-attachments/assets/6dd496ea-6624-456f-ba8b-212406eec6eb">
 
 8. **Play**: This is the button that starts the game.
