@@ -27,14 +27,19 @@ The home screen has 3 main buttons:
 8. **Play**: This is the button that starts the game.
 <img width="552" alt="Screenshot 2024-10-18 at 8 36 26" src="https://github.com/user-attachments/assets/67c4ba88-d3c2-4031-90dc-855ac8f6f7e6">
 
-You can use hints, such as keywords or the specific book from which the question originates.
 
 ### In-Game
 Once inside the game, questions related to the books you have previously selected will be displayed. 
 <img width="494" alt="Screenshot 2024-10-18 at 9 01 48" src="https://github.com/user-attachments/assets/3e9c69ac-f84c-4a01-9a54-22416960f416">
 
+You can use hints, such as keywords or the specific book from which the question originates.
+<img width="508" alt="Screenshot 2024-10-18 at 9 02 06" src="https://github.com/user-attachments/assets/a57cd359-ed1d-4666-a76a-49b11f9d0d10">
+
 Your score will increase or decrease depending on the answers you provide.
-<img width="508" alt="Screenshot 2024-10-18 at 9 02 06" src="https://github.com/user-attachments/assets/c479fcbe-5cfe-44d6-8836-da28a4129f00">
+<img width="497" alt="Screenshot 2024-10-18 at 9 02 24" src="https://github.com/user-attachments/assets/268bade1-e638-4df3-b1d6-a76f5a050da5">
+
+The celebration screen and the next question will appear once you select the correct option.
+<img width="510" alt="Screenshot 2024-10-18 at 9 02 50" src="https://github.com/user-attachments/assets/2e41d40b-4513-48d2-a547-d61857cf885f">
 
 ### Warning
 The application includes music, sounds, and animations that could alter the user's perception and/or distract them or disturb people nearby. Headphones are recommended when possible.
