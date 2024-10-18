@@ -4,6 +4,7 @@
 
 ### Home Screen
 The home screen has 3 main buttons:
+
 <img width="552" alt="Screenshot 2024-10-18 at 8 36 26" src="https://github.com/user-attachments/assets/1c0833e9-a0a8-4179-8ad1-4591bd0c2eda">
 
 1. **Information**: It details the game's instructions and the point system for achieving high scores.
